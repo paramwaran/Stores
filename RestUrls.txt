@@ -1,0 +1,17 @@
+http://localhost:8080/Stores/services/rest/ContactList/fetchAllContacts
+
+http://localhost:8080/Stores/services/rest/ContactList/insertContact
+{"contact":{"firstName":"paramesh0","email":"param@param.org","phone":"999-999-9999","lastName":"waran"}}
+ 
+http://localhost:8080/Stores/services/rest/ContactList/updateContact
+{"contact":{"firstName":"paramesh0","email":"param0@param.org","phone":"999-999-9999","lastName":"waran"}}
+
+http://localhost:8080/Stores/services/rest/ContactList/fetchByCustId
+
+{"contact":{"firstName":"paramesh0","email":"param0@param.org","phone":"999-999-9999","lastName":"waran"}}
+
+http://localhost:8080/Stores/services/rest/ContactList/deleteContact
+{"contact":{"firstName":"paramesh0","email":"param0@param.org","phone":"999-999-9999","lastName":"waran"}}
+
+http://localhost:8080/Stores/services/rest/ContactList/insertContactList
+{"contacts":[{"firstName":"paramesh1","email":"param1@param.org","phone":"999-999-9999","lastName":"waran"},{"firstName":"paramesh2","email":"param3@param.org","phone":"999-999-9999","lastName":"waran"}]}
