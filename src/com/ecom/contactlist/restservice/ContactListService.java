@@ -1,4 +1,4 @@
-package com.inuit.ecom.contactlist.restservice;
+package com.ecom.contactlist.restservice;
 
 
 import javax.ws.rs.Consumes;
@@ -10,11 +10,11 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.Response;
 
-import com.intuit.ecom.contactlist.dao.ContactListDao;
-import com.intuit.ecom.contactlist.model.Contact;
-import com.intuit.ecom.contactlist.model.ContactListRequest;
-import com.intuit.ecom.contactlist.model.ContactRequest;
-import com.intuit.ecom.contactlist.model.ContactResponse;
+import com.ecom.contactlist.dao.ContactListDao;
+import com.ecom.contactlist.model.Contact;
+import com.ecom.contactlist.model.ContactListRequest;
+import com.ecom.contactlist.model.ContactRequest;
+import com.ecom.contactlist.model.ContactResponse;
 
 @Consumes("application/json")
 @Produces("application/json")

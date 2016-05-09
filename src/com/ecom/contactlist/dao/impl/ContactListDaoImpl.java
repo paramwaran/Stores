@@ -1,11 +1,11 @@
-package com.intuit.ecom.contactlist.dao.impl;
+package com.ecom.contactlist.dao.impl;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import com.intuit.ecom.contactlist.dao.ContactListDao;
-import com.intuit.ecom.contactlist.model.Contact;
+import com.ecom.contactlist.dao.ContactListDao;
+import com.ecom.contactlist.model.Contact;
 
 public class ContactListDaoImpl implements ContactListDao{
 

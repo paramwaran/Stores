@@ -1,9 +1,9 @@
-package com.intuit.ecom.contactlist.dao;
+package com.ecom.contactlist.dao;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.intuit.ecom.contactlist.model.Contact;
+import com.ecom.contactlist.model.Contact;
 
 public interface ContactListDao {
 	public List<Contact> fetchAllContacts();

@@ -1,4 +1,4 @@
-package com.intuit.ecom.contactlist.model;
+package com.ecom.contactlist.model;
 
 import java.io.Serializable;
 
